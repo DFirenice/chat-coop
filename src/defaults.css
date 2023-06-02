@@ -1,0 +1,23 @@
+/* Oswald: 200, 400, 600 */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600&display=swap');
+
+* {
+	font-size: calc(.5rem + 1vh);
+	letter-spacing: 1px;
+	outline: none;
+}
+
+body, h2, h1, ul {
+	margin: 0;
+	padding: 0;
+}
+
+h2, h1, a { text-transform: uppercase; }
+
+body {
+	font-family: Oswald, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}

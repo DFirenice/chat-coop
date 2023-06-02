@@ -1,0 +1,26 @@
+.login__wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: max(100vh, 100vh);
+	background: linear-gradient(45deg, blueviolet, orangered);
+}
+
+.login__container {
+	background: blueviolet;
+}
+
+
+.separator {
+	position: relative;
+	text-transform: uppercase;
+}
+
+.separator::before,
+.separator::after {
+	content: '';
+	position: absolute;
+}
+
+.separator::before { left: 0; }
+.separator::after { right: 0; }
